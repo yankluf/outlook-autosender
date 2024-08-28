@@ -72,7 +72,7 @@ class App():
         self.driver = webdriver.Chrome()
         
     def login_outlook(self):
-        self.driver.get('http://login.live.com/')
+        self.driver.get('https://login.live.com/')
 
         time.sleep(3)
 
